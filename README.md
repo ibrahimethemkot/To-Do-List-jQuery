@@ -1,2 +1,2 @@
-# To-Do-List-jQuery
-jQuery kütüphanesini kullanarak geliştirdiğim. localStorage ile çalışan To Do List uygulamam.
+# jQuery-To-Do-List
+jQuery kütüphanesini kullanarak geliştirdiğim To Do List uygulaması.
