@@ -1,0 +1,86 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  color: rgb(171, 88, 28);
+  padding-top: 5px;
+  padding-left: 600px;
+  font-size: 30px;
+  text-shadow: 2px 2px orange;
+}
+
+.list-area {
+  height: 600px;
+  width: 1360px;
+  background-color: orange;
+  margin-left: 70px;
+}
+
+#input-add {
+  background-color: aliceblue;
+  height: 40px;
+  width: 400px;
+  border: navajowhite;
+  margin-left: 300px;
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+#input-add:hover {
+  background-color: rgb(245, 211, 169);
+}
+
+#btn-add {
+  background-color: aliceblue;
+  height: 42px;
+  width: 120px;
+  border: navajowhite;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+#btn-add:hover {
+  background-color: green;
+}
+
+#btn-delete-all {
+  background-color: aliceblue;
+  height: 42px;
+  width: 120px;
+  border: navajowhite;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+#btn-delete-all:hover {
+  background-color: red;
+}
+
+#list {
+  color: aliceblue;
+  list-style: none;
+  font-size: 22px;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+
+ul .fa-check {
+  margin-left: 10px;
+  color: green;
+  cursor: pointer;
+  position: absolute;
+}
+ul .fa-trash {
+  margin-left: 40px;
+  color: red;
+  cursor: pointer;
+  position: absolute;
+}
+ul .checked {
+  text-decoration: line-through;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: navajowhite;
+}/*# sourceMappingURL=style.css.map */
