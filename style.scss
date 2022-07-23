@@ -1,0 +1,98 @@
+$font: 'Courier New', Courier, monospace;
+$hovercolors: rgb(245, 211, 169);
+$warning: red;
+$success: green;
+$alicecolor: aliceblue;
+$orangecolor: orange;
+$whitecolor: navajowhite;
+
+body{
+    background-color: antiquewhite;
+    font-family: $font;
+}
+
+h1{
+    color:rgb(171, 88, 28);
+    padding-top: 5px;
+    padding-left: 600px;
+    font-size: 30px;
+    text-shadow: 2px 2px $orangecolor;
+}
+
+.list-area{
+    height: 600px;
+    width: 1360px;
+    background-color: $orangecolor;
+    margin-left: 70px;
+}
+
+#input-add{
+    background-color: $alicecolor;
+    height: 40px;
+    width: 400px;
+    border: $whitecolor;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-family: $font;
+    &:hover{
+        background-color: $hovercolors;
+    }
+}
+
+#btn-add{
+    background-color: $alicecolor;
+    height: 42px;
+    width: 120px;
+    border: $whitecolor;
+    font-family: $font;
+    cursor: pointer;
+    &:hover{
+        background-color: $success;
+    }
+}
+
+#btn-delete-all{
+    background-color: $alicecolor;
+    height: 42px;
+    width: 120px;
+    border: $whitecolor;
+    font-family: $font;
+    cursor: pointer;
+    &:hover{
+        background-color: $warning;
+    }
+}
+
+#list{
+    color: $alicecolor;
+    list-style: none;
+    font-size: 22px;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+ul{
+    .fa-check{
+        margin-left: 10px;
+        color: $success;
+        cursor: pointer;
+        position: absolute;
+    }
+    
+    .fa-trash{
+        margin-left: 40px;
+        color: $warning;
+        cursor: pointer;
+        position: absolute;
+    }
+    
+    .checked{
+        text-decoration: line-through;
+        transition: .2s;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $whitecolor;
+}
